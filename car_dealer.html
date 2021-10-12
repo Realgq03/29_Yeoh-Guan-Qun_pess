@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Car Dealer</title>
+	<link rel="stylesheet" href="styles/bootstrap.min.css" type="text/css" />
+	<link rel="stylesheet" href="dealer.css" type="text/css" />
+	<link rel="stylesheet" href="styles/jquery.fancybox.css" type="text/css" />
+	<script type="text/javascript" language="javascript" src="scripts/jquery.min.js"></script>
+	<script type="text/javascript" language="javascript" src="scripts/jquery-ui.min.js"></script>
+	<script type="text/javascript" language="javascript" src="scripts/bootstrap.min.js"></script>
+	<script type="text/javascript" language="javascript" src="scripts/jquery.fancybox.js"></script>
+    <script type="text/javascript" language="javascript" src="dealer.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	  <a class="navbar-brand" href="#">Car Dealer</a>
+	  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" 
+                                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		<span class="navbar-toggler-icon"></span>
+	  </button>
+
+	  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		<ul class="navbar-nav mr-auto">
+		  <li class="nav-item active">
+			<a class="nav-link" href="#" onclick="showPage('splash')">Play</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#" onclick="showPage('about')">About</a>
+		  </li>
+		  <li class="nav-item">
+			<a class="nav-link" href="#" onclick="showPage('credits')">Credits</a>
+		  </li>
+		   <li class="nav-item">
+			<a class="nav-link" href="#">Help</a>
+		  </li>
+		</ul>
+	  </div>
+	</nav>
+	<div id="app">
+		<div class="page-panel" id="splash">
+			<div id="logo">
+				Your Logo
+			</div>
+			<div class="game-button" onclick="showPage('play')">
+				Start Game
+			</div>
+		</div>
+		<div class="page-panel" id="play">
+			<div id="salon">
+    	<div id="clients_queue">
+        	clients queue
+        </div>
+    	<div id="cars_place">
+        	<div id="porsche" class="place">
+				<h4>Porsche</h4>
+				<div class="car">
+					<img alt src="images/Porsche_1.jpg">
+				</div>
+				<div class="car">
+					<img alt src="images/Porsche_1.jpg">
+				</div>
+				<div class="car">
+					<img alt src="images/Porsche_1.jpg">
+				</div>
+				<div class="car">
+					<img alt src="images/Porsche_1.jpg">
+				</div>
+            </div>
+        	<div id="volkswagen" class="place">
+				<h4>Volkswagen</h4>
+				<div class="car">
+					<img alt src="images/Volkswagen_2.png">
+				</div>
+				<div class="car">
+					<img alt src="images/Volkswagen_2.png">
+				</div>
+				<div class="car">
+					<img alt src="images/Volkswagen_2.png">
+				</div>
+				<div class="car">
+					<img alt src="images/Volkswagen_2.png">
+				</div>
+            </div>
+        	<div id="audi" class="place">
+				<h4>Audi</h4>
+				<div class="car">
+					<img alt src="images/Audi_3.jpg">
+				</div>
+				<div class="car">
+					<img alt src="images/Audi_3.jpg">
+				</div>
+				<div class="car">
+					<img alt src="images/Audi_3.jpg">
+				</div>
+				<div class="car">
+					<img alt src="images/Audi_3.jpg">
+				</div>
+            </div>
+        	<div id="bmw" class="place">
+				<h4>BMW</h4>
+				<div class="car">
+					<img alt src="images/BMW_1.jpg">
+				</div>
+				<div class="car">
+					<img alt src="images/BMW_1.jpg">
+				</div>
+				<div class="car">
+					<img alt src="images/BMW_1.jpg">
+				</div>
+				<div class="car">
+					<img alt src="images/BMW_1.jpg">
+				</div>
+            </div>
+        </div>
+        <div id="cashier">
+        	<h4>cashier</h4>
+			<div id="cashier_img_holder"><img  alt src="images/cashier.jpg"></div>
+        </div>
+        <div id="exit">
+        	<h4>exit</h4>
+			<div id="exit_img_holder"><img alt src="images/exit.gif"></div>
+        </div>
+        <div id="display">
+        	<ul>
+            	<li id="clients_served">0 clients</li>
+				<li id="cars_sold">0 cars</li>
+                <li id="amount">€ 000.000,00</li>
+            </ul>    
+        </div>
+    </div>
+			<div id="dialog">
+				<p>Do you want to make payment?</p>
+			</div>
+		</div>
+		<div class="page-panel" id="about">
+			About Page
+		</div>
+		<div class="page-panel" id="credits">
+			Credits Page
+		</div>
+	</div>
+	
+	
+</body>
+</html>
