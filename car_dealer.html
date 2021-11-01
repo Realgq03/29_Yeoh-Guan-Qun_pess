@@ -33,7 +33,7 @@
 			<a class="nav-link" href="#" onclick="showPage('credits')">Credits</a>
 		  </li>
 		   <li class="nav-item">
-			<a class="nav-link" href="#">Help</a>
+			<a class="nav-link" href="#" onclick="showPage('help')">Help</a>
 		  </li>
 		</ul>
 	  </div>
@@ -41,10 +41,10 @@
 	<div id="app">
 		<div class="page-panel" id="splash">
 			<div id="logo">
-				Your Logo
+				<img alt src="images/cardealer_logo.jpg"/>
 			</div>
 			<div class="game-button" onclick="showPage('play')">
-				Start Game
+				<h5>Start Game</h5>
 			</div>
 		</div>
 		<div class="page-panel" id="play">
@@ -135,10 +135,88 @@
 			</div>
 		</div>
 		<div class="page-panel" id="about">
-			About Page
+			<font size="+3"><u>About Page</u></font>
+			<br>
+			<br>
+			
+			<h2>Website Information</h2>
+			
+			<p>Simulation and management of car sales in a store</p>
+			<p>Customer arrives at the store, the customer then proceeds to queue up in the queue</p>
+			<p>The first customer of the queue will then move to the car they want to purchase</p>
+			<p>The rest of the customers in the queue will then move up to allow more customers to queue up</p>
+			<p>The customer at a car will then be asked a series of multiple choice questions</p>
+			<p>If the customer passed, they will have a choice to purchases the car, else they will have to leave the store.</p>
+			<p>If customer chose to buy it, they will move to the cashier to pay for it</p>
+			<p>They will then proceed and exit the store.</p>
+			<br>
+			<br>
+			<h2>Game Explanation</h2>
+			<br>
+			<p>Once the start game button is clicked. You will be directed to the application scene,</p>
+			<p>Once the application scene is up, a queue will be on the right side of the screen.</p>
+			<p>You are to drag the client to their desired car brand, once client dropped on their desired car brand.</p>
+			<p>A question promp will pop up about the car with a series of 5 questions, based on the results.</p>
+			<p>If the client passed the short quiz, a promp will pop up </p>
+			<p>The client will then have a choice whether to buy the car or not.</p>
+			<p>If No is clicked, client goes straight into the exit. Else, client moves to the cashier.</p>
+			<p>Once client is dropped on the cashier, a promp will pop up asking if client want to purchase the car</p>
+			<p>If yes is clicked, client will exit the store and the money earned and customer served will update. Else, Client jsut exit the store.</p>
+			
+			
 		</div>
+		
 		<div class="page-panel" id="credits">
-			Credits Page
+			<h2>Credits Page</h2>
+			<br>
+			<br>
+			<p align="left">Source:</p>
+			<br>
+			<p>The Logo</p>
+			<img alt src="images/cardealer_logo.jpg"/>
+			<p><a href="https://www.turbosquid.com/3d-model/car-dealership">
+				https://www.turbosquid.com/3d-model/car-dealership</a></p>
+		</div>
+		
+		<div class="page-panel" id="help">
+			<h2>Help Page</h2>
+			<p>Click Start Game and start dragging client to their respective car brands</p>
+			<p>Details of the multiple chocie questions:</p>
+			<a href="">Site</a>
+		</div>
+		
+		<div id="mcq" style="display: none">
+			<div id="question-panel">
+				<div class="row">
+					<div class="col-12">
+						<span id="questionTitle"></span>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<div class="mcq-choice" id="optionA" onClick="ansBox_click('a')">Answer A</div>
+					</div>
+					<div class="col-6">
+						<div class="mcq-choice" id="optionB" onClick="ansBox_click('b')">Answer B</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-6">
+						<div class="mcq-choice" id="optionC" onClick="ansBox_click('c')">Answer C</div>
+					</div>
+					<div class="col-6">
+						<div class="mcq-choice" id="optionD" onClick="ansBox_click('b')">Answer D</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-12">
+						<a onClick="next_qns()">
+							<img src="images/next.png" width="100" height="50" alt="next"/>
+						</a>
+					</div>
+				</div>
+				
+			</div>
 		</div>
 	</div>
 	

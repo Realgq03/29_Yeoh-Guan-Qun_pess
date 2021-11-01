@@ -58,10 +58,15 @@ function makeCarBoxesDroppable(brand) {
 			$dragBox.css(removeMarginStyle);
 			count--;
 			$dragBox.addClass('selected');
+			var dialogOption = { scrolling: 'no' };
+			$.fancybox.open('#mcq',dialogOption);
 		}
+		
 	};
 	$carBoxes.droppable(options);
 }
+
+
 
 function makeExitDroppable() {
 	var $exit = $("#exit");
@@ -181,7 +186,7 @@ function showPage(id) {
 	var page = $("#" + id);
 	var tweenEnd = {
 					opacity: 1.0
-				   };
+					};
 	page.animate(tweenEnd,1000);
 	page.show();
 }
