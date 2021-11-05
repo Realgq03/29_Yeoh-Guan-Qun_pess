@@ -13,102 +13,102 @@ function eraseText() {
 
 var questions = [
 	{
-		"qns":"___ you happy today?",
+		"qns":"The Mclaren first founded in ____.",
 		"no":"1",
 		"correctAns":"c",
 		"points":"2",
 		"category":"Mclaren",
 		"choices":[{
-						"title":"at",
+						"title":"2003",
 						"no":"a"
 						},
 						{
-						"title":"was",
+						"title":"1986",
 						"no":"b"
 						},
                         {
-						"title":"are",
+						"title":"2010",
 						"no":"c"
                         },
                         {
-						"title":"were",
+						"title":"2016",
 						"no":"d"
 						}
 			]	
 	},
  
 	{
-		"qns":"Will you come ___ class tomorrow?",
+		"qns":"The car type the lamborghini is _______.",
 		"no":"2",
 		"correctAns":"d",
 		"points":"2",
 		"category":"Lamborghini",
 		"choices":[{
-						"title":"was",
+						"title":"Hatchback",
 						"no":"a"
 						},
 						{
-						"title":"in",
+						"title":"Seden",
 						"no":"b"
 						},
                         {
-						"title":"at",
+						"title":"Audi",
 						"no":"c"
 						},
                         {
-						"title":"to",
+						"title":"Subsidairy",
 						"no":"d"
 						}
 			]	
 	},
 	
 	{
-		"qns":"Where ____ you from?",
+		"qns":"The CEO of the tesla company is ______ ______",
 		"no": "3",
 		"correctAns": "c",
 		"points": "2",
 		"category": "Tesla",
 		"choices": [
                        {
-						"title":"to",
+						"title":"Ian Wright",
 						"no":"a"
 						},
 						{
-						"title":"at",
+						"title":"JB Straubel",
 						"no":"b"
 						},
                         {
-						"title":"are",
+						"title":"Elon Musk",
 						"no":"c"
 						},
                         {
-						"title":"were",
+						"title":"Martin Eberhard",
 						"no":"d"
 						}
 			]	
 	},
 	
 	{
-		"qns": "Where ____ you going",
+		"qns": "The Bugatti was a _________ car manufaturer.",
 		"no" : "4",
 		"correctAns" : "b",
 		"points" : "2",
 		"category" : "Bugatti",
 		"choices" : [
                         {
-						"title": "is",
+						"title": "American",
 						"no"   : "a"
 						},
 						{
-						"title": "are",
+						"title": "German",
 						"no"   : "b"
 						},
                         {
-						"title": "were",
+						"title": "China",
 						"no"   : "c"
 						},
                         {
-						"title": "did",
+						"title": "Australia",
 						"no"   : "d"
 						}
 			]	
