@@ -86,25 +86,25 @@ html, body {width:100%; height:100%; font-family:Arial, Helvetica, sans-serif; f
 	height: 140px;
 	border:1px solid;
 }
-#volkswagen{
+#bugatti{
 	margin-top:150px;
 }
-#audi{
+#tesla{
 	margin-top:300px;
 }
-#bmw{
+#mclaren{
 	margin-top:460px;
 }
-.client_1{background-image:url(images/client_1.jpg);}
-.client_2{background-image:url(images/client_2.jpg);}
-.client_3{background-image:url(images/client_3.jpg);}
-.client_4{background-image:url(images/client_4.jpg);}
-.client_5{background-image:url(images/client_5.jpg);}
-.client_6{background-image:url(images/client_6.jpg);}
-.client_7{background-image:url(images/client_7.jpg);}
-.client_8{background-image:url(images/client_8.jpg);}
-.client_9{background-image:url(images/client_9.jpg);}
-.client_10{background-image:url(images/client_10.jpg);}
+.client_1{background-image:url(images/client_1.png);}
+.client_2{background-image:url(images/client_2.png);}
+.client_3{background-image:url(images/client_3.png);}
+.client_4{background-image:url(images/client_4.png);}
+.client_5{background-image:url(images/client_5.png);}
+.client_6{background-image:url(images/client_6.png);}
+.client_7{background-image:url(images/client_7.png);}
+.client_8{background-image:url(images/client_8.png);}
+.client_9{background-image:url(images/client_9.png);}
+.client_10{background-image:url(images/client_10.png);}
 
 .car img {
 	width: 70px;
@@ -185,9 +185,6 @@ html, body {width:100%; height:100%; font-family:Arial, Helvetica, sans-serif; f
 	cursor:pointer;
 }
 	
-div {
-	border: 0px solid black;
-}
 
 .mcq-choice {
 	margin-left: 10px;
@@ -202,4 +199,83 @@ div {
 	cursor: pointer;
 	line-height: 50px;
 	border: "3px solid MediumSlateBlue";
+}
+
+#source {
+	right: 200px;
+	position: relative;
+}
+
+#send {
+	width: 100px;
+	height: 30px;
+	position:relative;
+	
+}
+
+.sendbtn {
+	left: 340px;
+	top: 360px;
+	position:relative;
+}
+
+#cash {
+	width: 300px;
+	height: 200px;
+}
+
+#exitsign {
+	width: 300px;
+	height: 200px;
+}
+
+#lambo {
+	width: 300px;
+	height: 200px;
+}
+
+#bugatti_car {
+	width: 300px;
+	height: 200px;
+}
+
+#tesla_car {
+	width: 300px;
+	height: 200px;
+}
+
+#mclare {
+	width: 300px;
+	height: 200px;
+}
+
+#client_source1 {
+	width: 300px;
+	height: 200px;
+}
+
+#client_source2 {
+	width: 300px;
+	height: 200px;
+}
+
+#client_source3 {
+	width: 300px;
+	height: 200px;
+}
+
+#about_text1 {
+	font-size: 15px;
+}
+
+#about_text2 {
+	font-size: 15px;
+}
+
+#about_heading1 {
+	text-decoration: underline;
+}
+
+#about_heading2 {
+	text-decoration: underline;
 }
