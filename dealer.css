@@ -156,6 +156,7 @@ html, body {width:100%; height:100%; font-family:Arial, Helvetica, sans-serif; f
 	margin-left:auto;
 	margin-right:auto;
 	border: 1px solid black;
+	border-radius: 25px;
 
 
 }
@@ -169,7 +170,10 @@ html, body {width:100%; height:100%; font-family:Arial, Helvetica, sans-serif; f
 	margin-bottom: 10px;
 	text-align:center;
 	cursor:pointer;
-	background-color: #74FA94;
+	background-color: #56BCE2;
+	border-radius:25px;
+	padding: 5px;
+	
 }
 #dialog {
 	display: none;
@@ -177,12 +181,17 @@ html, body {width:100%; height:100%; font-family:Arial, Helvetica, sans-serif; f
 #logo img {
 	width: 500px;
 	height: 300px;
-	margin-left:auto;
+	margin-left:-1px;
 	margin-right:auto;
-	margin-top: auto;
+	margin-top: -1px;
 	margin-bottom: auto;
 	text-align:center;
 	cursor:pointer;
+	border-radius: 25px;
+
+}
+#splash {
+	border-radius: 25px;
 }
 	
 
@@ -195,10 +204,25 @@ html, body {width:100%; height:100%; font-family:Arial, Helvetica, sans-serif; f
 	width: 250px;
 	border-radius: 20px;
 	color: black;
-	background-color: palegreen;
+	background-color: #00DDFF;
 	cursor: pointer;
 	line-height: 50px;
 	border: "3px solid MediumSlateBlue";
+}
+
+#questionTitle {
+	right: -50;
+	position:absolute;
+	font-weight: bold;
+	font-size: 20px;
+	
+	
+}
+
+#qntlimg {
+	right: -50px;
+	position:absolute;
+	bottom: -320px;
 }
 
 #source {
@@ -214,8 +238,8 @@ html, body {width:100%; height:100%; font-family:Arial, Helvetica, sans-serif; f
 }
 
 .sendbtn {
-	left: 340px;
-	top: 360px;
+	align-content: center;
+	bottom: -398px;
 	position:relative;
 }
 

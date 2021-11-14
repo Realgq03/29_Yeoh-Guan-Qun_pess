@@ -338,10 +338,10 @@ function next_qns() {
 	var optD_Box = $("#optionD");
 	optD_Box.html(optD.title);
 		
-	optA_Box.css("background-color","palegreen");
-	optB_Box.css("background-color","palegreen");
-	optC_Box.css("background-color","palegreen");
-	optD_Box.css("background-color","palegreen");
+	optA_Box.css("background-color","#00DDFF");
+	optB_Box.css("background-color","#00DDFF");
+	optC_Box.css("background-color","#00DDFF");
+	optD_Box.css("background-color","#00DDFF");
 	qnsIndex++;
 	}
 else {
@@ -411,6 +411,7 @@ else {
 		var clientX = currentClient.offset().left;
 		var clientY = currentClient.offset().top;
 		
+		
 		if(failed == true) {
 			var exit = $("#exit_img_holder");
 			var exitX = exit.offset().left;
@@ -419,15 +420,17 @@ else {
 			var diffX = exitX - clientX;
 			var diffY = exitY - clientY;
 			
-			currentClient.css('zIndex',3000);
-			currentClient.animate( {
-				left: "+=" + diffX,
-				top: "+=" + diffY,
-			},
+			
+			currentClient.css("zIndex",3000);
+			currentClient.animate( 
+				{
+					left: "+=" + diffX,
+					top: "+=" + diffY,
+				},
 			1000).fadeout(2000,function() {
 				count--;
 				newClient();
-			}
+			}	  
 		);
 			
 		}
@@ -439,7 +442,7 @@ else {
 			var diffX = cashierX - clientX;
 			var diffY = cashierY - clientY;
 			
-			currentClient.css('zIndex',3000);
+			currentClient.css("zIndex",3000);
 			currentClient.animate(
 				{
 					left: "+=" + diffX,
@@ -459,10 +462,10 @@ function ansBox_click(selectedChoice) {
 	var optB_Box = $("#optionB");
 	var optC_Box = $("#optionC");
 	var optD_Box = $("#optionD");
-	optA_Box.css("background-color","palegreen");
-	optB_Box.css("background-color","palegreen");
-	optC_Box.css("background-color","palegreen");
-	optD_Box.css("background-color","palegreen");
+	optA_Box.css("background-color","#00DDFF");
+	optB_Box.css("background-color","#00DDFF");
+	optC_Box.css("background-color","#00DDFF");
+	optD_Box.css("background-color","#00DDFF");
 	
 	if(selectedChoice == "a")
 		{
